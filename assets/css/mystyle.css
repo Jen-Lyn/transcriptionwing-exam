@@ -34,7 +34,7 @@ img.logosum{
 }
 
 .wrapper-grid-head:first-child{
-  margin: 0;
+  margin: 1rem 0rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, 64rem);
   justify-content: center;
