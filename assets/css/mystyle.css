@@ -440,4 +440,12 @@ li:hover{
   background: #228799;  
 }
 
+@media only screen and (max-width: 1090px){
+  .wrapper-grid-head:first-child{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 22rem);
+    justify-content: center;
+  }
+}
 
