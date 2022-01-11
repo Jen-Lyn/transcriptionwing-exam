@@ -70,19 +70,19 @@
 							<div class="fields">
 								<div class="field half">
 									<label for="name">First Name</label>
-									<input type="text" name="name" id="name" value="" />
+									<input type="text" name="name" id="name" value="" required />
 								</div>
 								<div class="field half">
 									<label for="company">Company</label>
-									<input type="text" name="company" id="company" value="" />
+									<input type="text" name="company" id="company" value="" required />
 								</div>
 								<div class="field">
 									<label for="email">Email</label>
-									<input type="text" name="email" id="email" value="" />
+									<input type="text" name="email" id="email" value="" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required />
 								</div>
 								<div class="field">
 									<label for="country">Country</label>
-									<select id="country" name="country">
+									<select id="country" name="country" required >
 										<option value="" disabled selected>Please Select</option>
 										<option value="Afganistan">Afghanistan</option>
 										<option value="Albania">Albania</option>
